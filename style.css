@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 0 150px 80px 150px;
+}
+
+.container-one {
+    display: flex;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    width: 400px;
+    padding-right: 100px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: #E5E7EB;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.img-one {
+    align-content: flex-end;
+    background-color: grey;
+    padding: 100px 150px;
+    margin-left: 50px;    
+}
+
+.information {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-two {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 2px solid dodgerblue;
+}
+
+.info {
+    max-width: 150px;
+    text-align: center;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 18px;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.container-three {
+    margin: 75px 150px;
+    padding: 40px 0;
+    background-color: dodgerblue;
+    color: #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.sign-up {
+    padding-left: 110px;
+    
+}
+
+.bottom-button {
+    border: 2px solid white;
+    margin-left: 100px;
+}
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 25px 0;
+}
